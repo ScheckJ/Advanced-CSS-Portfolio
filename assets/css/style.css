@@ -63,6 +63,13 @@ h2 {
     left: 200px;
     padding: 20px;
 }
+.main-content img {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 300px;
+    float:left;
+}
 
 .footer {
     padding: 30px;
