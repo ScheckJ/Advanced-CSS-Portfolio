@@ -1,60 +1,85 @@
 <!DOCTYPE html>
 <html lang="en-us">
-   
-    <head>
-        <meta charset="UTF-8">
-        <link rel="reset" href="./assets/css/reset.css">
-        <link rel="stylesheet" href="./assets/css/style.css">
-        <title>Advanced CSS Portfolio</title>
-    </head>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="reset" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <title>Advanced CSS Portfolio</title>
+  </head>
 
-<body>
-    <header class="header">
-        <h1>Welcome!</h1>
-        <nav>
-            <ul>
-                <li>
-                    <a href="#About-Me"> About Me</a>
-                </li>
-                <li>
-                    <a href="#Work"> Work</a>
-                </li>
-                <li>
-                    <a href="#Contact Me"> Contact Me</a>
-                </li>
-            </ul>
-        </nav>
+  <body>
+    <header>
+      <h1>Welcome!</h1>
+      <nav>
+        <a href="#about"> About Me</a>
+
+        <a href="#work"> Work</a>
+
+        <a href="#contact"> Contact Me</a>
+      </nav>
     </header>
-    <figure class="background"></figure>
-    <main class="content">
-        <section class="content" id="about-me">
-            <h2>About Me</h2>
+    <figure class="hero"></figure>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <div>
             <p>
-                Hello, my name is Scheck Jah and I am a coding bootcamp student at the University of Richmond. I am still very much a beginner, but I am passionate about learning the craft of web development.
+              Hello, my name is Scheck Jah and I am a coding bootcamp student at the
+              University of Richmond. I am still very much a beginner, but I am
+              passionate about learning the craft of web development.
             </p>
-        </section>
-        <section class="content" id="work">
-            <a href="https://scheckj.github.io/prework-study-guide/"></a>
-                <h2>Work</h2>
-                     <p>
-                         At this point in our bootcamp journey, I have had the opportunity to create two gihub repositories. The first was a web page that served as a study guide for the prework of our course. The second repository project involved refactoring code in html and css in order to create functional but more efficient code.
-                    </p>
-                    <div class="row">
-                    <img src="./assets/images/scheckj-prework-study-guide.png">
-                    <img src="assets/images/scheckj.github.io_Code-refactor_.png">
-                    </div>
-                </section>
-    </main>
-     <footer class="footer" id="contact-me">
+            <p>
+              At this point in our bootcamp journey, I have had the opportunity to
+              create two gihub repositories. The first was a web page that served as
+              a study guide for the prework of our course. The second repository
+              project involved refactoring code in html and css in order to create
+              functional but more efficient code.
+            </p>
+        </div>
+      </section>
+      <section id="work">
+          <h2>Work</h2>
+          <div class="projects">
+              <a href="https://scheckj.github.io/prework-study-guide/" class="project prework">
+                <div>
+                    <p>project 1</p>
+                </div>
+              </a>
+
+              <a href="https://scheckj.github.io/prework-study-guide/" class="project">
+                <div>
+                    <p>project 1</p>
+                </div>
+              </a>
+              <a href="https://scheckj.github.io/prework-study-guide/" class="project">
+                <div>
+                    <p>project 1</p>
+                </div>
+              </a>
+             <a href="https://scheckj.github.io/prework-study-guide/" class="project">
+                <div>
+                    <p>project 1</p>
+                </div>
+              </a> 
+              <a href="https://scheckj.github.io/prework-study-guide/" class="project">
+                <div>
+                    <p>project 1</p>
+                </div>
+              </a>
+              <!-- <img src="./assets/images/scheckj-prework-study-guide.png" />
+          <img src="assets/images/scheckj.github.io_Code-refactor_.png" /> -->
+        </div>
+      </section>
+      <section id="contact">
         <h2>Contact Me</h2>
         <ul>
-            <li>
-                Email
-            </li>
-            <li>
-                Phone number
-            </li>
+          <li>Email</li>
+          <li>Phone number</li>
         </ul>
-     </footer>
-</body>
+      </section>
+    </main>
+    <footer>
+        <p>footer goes here</p>
+    </footer>
+  </body>
 </html>
