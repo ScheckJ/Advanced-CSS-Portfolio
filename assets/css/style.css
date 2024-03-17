@@ -8,6 +8,7 @@ body{}
 
 a{
     text-decoration: none;
+    color: aliceblue;
 }
 
 header{
@@ -15,29 +16,29 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+    background-color: darkblue;
 }
 
 header h1 {
-
+    background-color: lightblue;
 }
 
 /* target the nav in the header: adjust styles accordingly */
 
-
 .hero{
-    background-color: purple;
-    height: 150px;
+    background: linear-gradient(to top, darkblue, lightblue);
+    height: 100px;
 }
 
 main{
-   margin: 5px;
+   margin: 50px;
    padding: 5px; 
 }
 
 section{
     display: flex;
     flex-wrap: wrap;
-    margin-bottom: 10px;
+    margin-bottom: 30px;
 }
 
 section h2{
@@ -47,6 +48,12 @@ section h2{
 
 section div{
     flex: 0 0 80%;
+}
+
+ul a {
+    display: inline;
+    margin: 50px;
+    color: black;
 }
 
 .projects{
@@ -70,3 +77,9 @@ section div{
     min-height: 350px;
     background-image: url(../images/scheckj-prework-study-guide.png);
 }
+
+.code-refactor {
+    background-image: url(../images/scheckj.github.io_Code-refactor_.png);
+}
+
+
