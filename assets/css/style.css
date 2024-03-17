@@ -2,15 +2,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-
-body{}
 
 a{
     text-decoration: none;
     color: aliceblue;
 }
-
+/* Decided to go for simple colors in the header selectors. Also made sure the nav appears similarly to the way it does in the mock up. */
 header{
     display: flex;
     justify-content: space-between;
@@ -23,8 +22,6 @@ header h1 {
     background-color: lightblue;
 }
 
-/* target the nav in the header: adjust styles accordingly */
-
 .hero{
     background: linear-gradient(to top, darkblue, lightblue);
     height: 100px;
@@ -34,7 +31,7 @@ main{
    margin: 50px;
    padding: 5px; 
 }
-
+/* Added flex properties to make align content more smoothly */
 section{
     display: flex;
     flex-wrap: wrap;
@@ -55,7 +52,7 @@ ul a {
     margin: 50px;
     color: black;
 }
-
+/* Condensed various classes down to one for more efficiency */
 .projects{
     display: flex;
     flex-wrap: wrap;
@@ -69,7 +66,6 @@ ul a {
     flex-basis: calc(50% - 1em);
     margin: 5px;
     background-size: cover;
-    /* background-position: center; */
 }
 
 .prework{
@@ -85,3 +81,25 @@ ul a {
 .placeholder {
     background-image: url(../images/placeholder-clipart-1.png);
 }
+
+@media screen and (max-width: 1024px) {
+    body{
+        flex-direction: column;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+   body {
+    flex-direction: column;
+    width: 100%;
+   }
+  }
+  
+ 
+  @media screen and (max-width: 320px) {
+    body {
+        flex-direction: column;
+        width: 110%;
+    }
+   
+  }
