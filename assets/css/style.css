@@ -60,8 +60,8 @@ ul a {
 }
 
 .project{
-    min-height: 150px;
-    max-height: 150px;
+    min-height: 200px;
+    max-height: 200px;
     background-color: gray;
     flex-basis: calc(50% - 1em);
     margin: 5px;
@@ -79,6 +79,7 @@ ul a {
 }
 
 .placeholder {
+    background-position: center;
     background-image: url(../images/placeholder-clipart-1.png);
 }
 
